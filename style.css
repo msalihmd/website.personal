@@ -1,0 +1,115 @@
+body {
+  font-family: arial black, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header {
+  background-color: #0e03ac;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #fdfdfd;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.galeri {
+  padding: 40px 20px;
+  background-color: #181818;
+  text-align: center;
+}
+
+.galeri-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.galeri-container img {
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galeri-container img:hover {
+  transform: scale(1.05);
+}
+
+.harga {
+  padding: 40px 20px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #2c2c2c;
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid #444;
+}
+
+th {
+  background-color: #0e03ac;
+  color: #fff9f9;
+}
+
+td {
+  color: #fff;
+}
+
+.kontak {
+  padding: 40px 20px;
+  background-color: #141414;
+  text-align: center;
+}
+
+.kontak a {
+  color: #70d2ff;
+  text-decoration: none;
+}
+
+footer {
+  padding: 20px;
+  background-color: #000;
+  text-align: center;
+  color: #aaa;
+}
